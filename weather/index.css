@@ -1,0 +1,128 @@
+html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,
+legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  list-style: none; }
+
+button,input,select,textarea {
+  margin: 0;
+}
+
+header {
+    background: lightseagreen;
+}
+
+header h1 {
+    color: white;
+}
+
+.weather-title, .weather-search {
+    padding: 10px;
+
+}
+
+.weather-search{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.weather-search {
+    display: inline-block;
+}
+
+.select-state {
+    border-radius: 5px;
+    width: 35%;
+    background-color: white;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.bt-search {
+    margin: 0;
+    height: 50px;
+    width: 150px;
+    background: darkseagreen;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input-city {
+    height: 44px;
+    width: 35%;
+    border-radius: 5px;
+    font-size: 18px
+}
+
+.section {
+    padding: 3rem 1.5rem;
+}
+
+
+.column-left, .column-right {
+    display: flex;
+    width: 90%;
+    border: 1px solid black;
+    padding: 1em;
+    margin: 5px;
+    height: 200px;
+}
+
+.column-week {
+    border: 1px solid black;
+    width: 50%;
+    padding: 1 em;
+    margin: 5px;
+    height: 150px;
+}
+
+.column-title, .column-today {
+    display: flex;
+}
+
+.column-today--img,
+.column-today--temp,
+.column-today--min-max {
+    flex: none;
+    width: 35%;
+    height: 100px;
+    padding: 0.75rem;
+}
+
+.column-today--img img {
+    height: 115px;
+    width: 115px;
+}
+
+.column-today--temp span {
+    font-size: 50px;
+}
+
+.suggestion {
+    width: 100%;
+    display: block;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1152px;
+        width: 1152px;
+    }
+
+    .columns {
+        display: flex;
+    }
+
+    .column-left, .column-right {
+        width: 50%
+    }
+
+    .column-week { 
+        width: 25%;
+    }
+}
